@@ -1,0 +1,12 @@
+baseurl = "http://hisfantor.com/recipes"
+title = "Hugo Themes - aether"
+author = "Joe Hutchinson"
+canonifyurls = true
+paginate = 3
+theme = "aether"
+publishDir = "docs"
+
+[params]
+brand = "aether"
+description = "aether Hugo theme for blogs"
+bgimg = "img/ignasi_pattern_s.png"
