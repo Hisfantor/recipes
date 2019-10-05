@@ -1,12 +1,15 @@
 baseurl = "http://hisfantor.com/recipes/"
-title = "Hugo Themes - aether"
-author = "Joe Hutchinson"
+title = "Hisfantor's Food Blog"
+author = "Hisfantor"
 canonifyurls = true
-paginate = 3
+paginate = 5
 theme = "aether"
 publishDir = "docs"
+languageCode = "en"
 
 [params]
-brand = "aether"
-description = "aether Hugo theme for blogs"
-bgimg = "img/ignasi_pattern_s.png"
+brand = "Hisfantor"
+description = "Hisfantor's Food Blog"
+bgimg = ""
+rssinmenu = true
+homeimg = ""

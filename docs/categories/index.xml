@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories - Hugo Themes - aether</title>
+    <title>Categories - Hisfantor&#39;s Food Blog</title>
     <link>http://hisfantor.com/recipes/categories/</link>
-    <description>Recent content in Categories on Hugo Themes - aether</description>
+    <description>Recent content in Categories on Hisfantor&#39;s Food Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     
         <atom:link href="http://hisfantor.com/recipes/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +19,7 @@
     </item><item>
       <title>Features</title>
       <link>http://hisfantor.com/recipes/categories/features/</link>
-      <pubDate>Wed, 19 Dec 2018 10:35:35 -0500</pubDate>
+      <pubDate>Sat, 05 Oct 2019 15:26:51 +0200</pubDate>
       
       <guid>http://hisfantor.com/recipes/categories/features/</guid>
       <description></description>
@@ -28,6 +29,13 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://hisfantor.com/recipes/categories/golang/</guid>
+      <description></description>
+    </item><item>
+      <title>Web</title>
+      <link>http://hisfantor.com/recipes/categories/web/</link>
+      <pubDate>Wed, 02 May 2018 14:33:42 -0400</pubDate>
+      
+      <guid>http://hisfantor.com/recipes/categories/web/</guid>
       <description></description>
     </item>
   </channel>
