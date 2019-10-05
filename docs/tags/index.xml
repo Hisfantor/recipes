@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags - Hisfantor&#39;s Food Blog</title>
+    <title>Tags on Hisfantor&#39;s Food Blog</title>
     <link>http://hisfantor.com/recipes/tags/</link>
     <description>Recent content in Tags on Hisfantor&#39;s Food Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-        <atom:link href="http://hisfantor.com/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hisfantor.com/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

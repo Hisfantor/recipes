@@ -11,5 +11,4 @@ languageCode = "en"
 brand = "Hisfantor"
 description = "Hisfantor's Food Blog"
 bgimg = ""
-rssinmenu = true
-homeimg = ""
+disqusShortname = "hisfantor"

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hisfantor.com/recipes/post/chicken-noodles-copy/</loc>
+    <lastmod>2019-10-05T15:26:51+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hisfantor.com/recipes/post/chicken-noodles/</loc>
     <lastmod>2019-10-05T15:26:51+02:00</lastmod>
   </url>
@@ -18,13 +23,25 @@
   </url>
   
   <url>
-    <loc>http://hisfantor.com/recipes/categories/features/</loc>
+    <loc>http://hisfantor.com/recipes/categories/chicken/</loc>
+    <lastmod>2019-10-05T15:26:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hisfantor.com/recipes/categories/noodles/</loc>
     <lastmod>2019-10-05T15:26:51+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hisfantor.com/recipes/post/</loc>
+    <lastmod>2019-10-05T15:26:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hisfantor.com/recipes/categories/skillet/</loc>
     <lastmod>2019-10-05T15:26:51+02:00</lastmod>
     <priority>0</priority>
   </url>
