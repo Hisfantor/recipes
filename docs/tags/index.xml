@@ -6,45 +6,9 @@
     <description>Recent content in Tags on Hisfantor&#39;s Food Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://hisfantor.com/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Development</title>
-      <link>http://hisfantor.com/recipes/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://hisfantor.com/recipes/tags/development/</guid>
-      <description></description>
-    </item><item>
-      <title>Go</title>
-      <link>http://hisfantor.com/recipes/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://hisfantor.com/recipes/tags/go/</guid>
-      <description></description>
-    </item><item>
-      <title>Golang</title>
-      <link>http://hisfantor.com/recipes/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://hisfantor.com/recipes/tags/golang/</guid>
-      <description></description>
-    </item><item>
-      <title>Hugo</title>
-      <link>http://hisfantor.com/recipes/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://hisfantor.com/recipes/tags/hugo/</guid>
-      <description></description>
-    </item><item>
-      <title>Templates</title>
-      <link>http://hisfantor.com/recipes/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://hisfantor.com/recipes/tags/templates/</guid>
-      <description></description>
-    </item>
+    
   </channel>
 </rss>
