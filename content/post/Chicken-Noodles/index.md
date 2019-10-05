@@ -21,4 +21,3 @@ and chicken
 
 {{< instagram B21-XM5IX1p hidecaption >}}
 
-{{ template "_internal/disqus.html" . }}
