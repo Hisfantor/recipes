@@ -1,4 +1,4 @@
-baseurl = "http://hisfantor.com/recipes/"
+baseurl = "https://hisfantor.com/recipes/"
 title = "Hisfantor's Food Blog"
 author = "Hisfantor"
 canonifyurls = true
