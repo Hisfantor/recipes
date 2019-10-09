@@ -2,7 +2,7 @@
 title: "Paprika Chicken Noodles"
 date: 2019-10-05T15:26:51+02:00
 description: "Let's create a simple meal with noodles as base adding some vegetables and marinated chicken."
-categories: ["Skillet", "Noodles", "Chicken"]
+categories: ["Skillet", "Noodles", "Chicken", "Paprika"]
 dropCap: false
 displayInMenu: false
 displayInList: true
@@ -42,12 +42,12 @@ resources:
 
 1. cook your Noodles
 2. cut up Paprika and Scallions
-3. start frying in order with some Olive Oil:
+3. with some Olive Oil start frying in order:
 	* Chicken
 	* Noodles
 	* Paprika and Scallions
 4. after everything is fried to your taste add some Cream and Cream Cheese, ceason with some additional Salt and Pepper
-5. keep it on low heat until you have no liquid left and cream coaded noodles
+5. keep it on low heat until you have no liquid left and Cream coaded Noodles
 
 ### Indescribable:
 ![finished](3.jpg)
