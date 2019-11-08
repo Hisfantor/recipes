@@ -23,19 +23,17 @@ strong {
 }
 .nav-bar {
     max-width: 50rem;
-    width: 100%;
-    padding: 0.4em 0;
+    width: calc(100% - 15px);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .nav-header {
-    margin: 0;
+    margin: auto;
 }
 .nav-text {
     text-decoration: none;
     z-index: 105;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    padding: 0 0 0 0;
 }
 .hamburger-menu {
     display: block;
@@ -43,6 +41,7 @@ strong {
     z-index: 105;
     -webkit-user-select: none;
     user-select: none;
+    padding: 5px 0 0 0;
 }
 .hamburger-menu button {
     display: block;
@@ -239,7 +238,7 @@ strong {
     border-left: thin solid #7a7b7c;
 }
 .end-nav {
-    width: 100%;
+    width: calc(100% - 10px);
     max-width: 49rem;
 }
 .pagination-nav {
@@ -269,13 +268,7 @@ strong {
     transform: scale(1);
 }
 .side-gutter {
-    margin-left: 1.2rem !important;
-    margin-right: 1.2rem !important;
-}
-.side-padding {
-    padding-left: 1.2rem !important;
-    padding-right: 1.2rem !important;
-    box-sizing: border-box !important;
+    margin:0 15px;
 }
 .side-text-padding {
     padding-left: 1.2rem !important;
@@ -377,6 +370,11 @@ footer {
     padding: 2em 0;
     margin: 2em 0 0 0;
 }
+.small-img.smartfloat-right {
+        max-width: 250px;
+        float: right;
+        margin: 0em 0em 1em 1em;
+    }
 @media screen and (pointer: coarse) {
  .card-hover {
     transform: scale(0.95);
@@ -396,9 +394,6 @@ footer {
 @media only screen and (min-width: 40.063em) {
     body {
         font-size: 1.15rem;
-    }
-    .nav-bar {
-        padding: 0.8em 0;
     }
     .list-header-title {
         font-weight: normal;
@@ -458,4 +453,8 @@ footer {
     code {
         border-radius: 0.2rem;
     }
+     .nav-text {
+    padding: 0 111px 0 0;
+    font-size: 1.2em;
+}
 }

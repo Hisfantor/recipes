@@ -5,8 +5,21 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Hisfantor&#39;s Food Blog</title>
+  <meta name="theme-color" content="#ffaa01">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://hisfantor.com/studentcooking/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://hisfantor.com/studentcooking/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://hisfantor.com/studentcooking/favicon-16x16.png">
+<link rel="manifest" href="https://hisfantor.com/studentcooking/site.webmanifest">
+<link rel="mask-icon" href="https://hisfantor.com/studentcooking/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffaa01">
+<meta name="theme-color" content="#ff0000">
+
+
+  <title>Studentcooking</title>
   <meta name="description" content="Hisfantor&#39;s Food Blog" />
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   
@@ -14,19 +27,17 @@
   
   
   
-  <link href="https://hisfantor.com/recipes/css/concated.min.css" rel="stylesheet">
-  <link rel="alternate" type="application/rss+xml" href="https://hisfantor.com/recipes/index.xml" title="Hisfantor's Food Blog" />
+  <link href="https://hisfantor.com/studentcooking/css/concated.min.css" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" href="https://hisfantor.com/studentcooking/index.xml" title="Studentcooking" />
   
-  <style>
-    body {
-      background: #ecedef url("https://hisfantor.com/recipes/") repeat;
-    }
-  </style>
+  
 </head>
 
   <body class="list-body">
-    <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://hisfantor.com/recipes/" class="nav-text">Hisfantor</a></h1>
+    <nav class="nav-bar">
+  <a href="https://hisfantor.com/studentcooking/"><img src="https://hisfantor.com/studentcooking/img/student.png" style="margin:0;height: 200px;width: auto;"></a>
+  <h1 class="nav-header"><a href="https://hisfantor.com/studentcooking/" class="nav-text">
+    Studentcooking</a></h1>
   <div class="hamburger-menu">
     <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menu">
       <span></span>
@@ -34,7 +45,7 @@
       <span></span>
     </button>
     <ul id="menu" class="hamburger-menu-overlay">
-      <li><a href="https://hisfantor.com/recipes/categories/chicken" class="hamburger-menu-overlay-link">Chicken</a></li><li><a href="https://hisfantor.com/recipes/categories/corn" class="hamburger-menu-overlay-link">Corn</a></li><li><a href="https://hisfantor.com/recipes/categories/egg" class="hamburger-menu-overlay-link">Egg</a></li><li><a href="https://hisfantor.com/recipes/categories/flour" class="hamburger-menu-overlay-link">Flour</a></li><li><a href="https://hisfantor.com/recipes/categories/no-tomatoes-guy" class="hamburger-menu-overlay-link">No tomatoes guy</a></li><li><a href="https://hisfantor.com/recipes/categories/noodles" class="hamburger-menu-overlay-link">Noodles</a></li><li><a href="https://hisfantor.com/recipes/categories/paprika" class="hamburger-menu-overlay-link">Paprika</a></li><li><a href="https://hisfantor.com/recipes/categories/pork" class="hamburger-menu-overlay-link">Pork</a></li><li><a href="https://hisfantor.com/recipes/categories/skillet" class="hamburger-menu-overlay-link">Skillet</a></li><li><a href="https://hisfantor.com/recipes/categories/tuna" class="hamburger-menu-overlay-link">Tuna</a></li>
+      <li><a href="https://hisfantor.com/studentcooking/categories/chicken" class="hamburger-menu-overlay-link">Chicken</a></li><li><a href="https://hisfantor.com/studentcooking/categories/corn" class="hamburger-menu-overlay-link">Corn</a></li><li><a href="https://hisfantor.com/studentcooking/categories/egg" class="hamburger-menu-overlay-link">Egg</a></li><li><a href="https://hisfantor.com/studentcooking/categories/flour" class="hamburger-menu-overlay-link">Flour</a></li><li><a href="https://hisfantor.com/studentcooking/categories/no-tomatoes-guy" class="hamburger-menu-overlay-link">No tomatoes guy</a></li><li><a href="https://hisfantor.com/studentcooking/categories/noodles" class="hamburger-menu-overlay-link">Noodles</a></li><li><a href="https://hisfantor.com/studentcooking/categories/paprika" class="hamburger-menu-overlay-link">Paprika</a></li><li><a href="https://hisfantor.com/studentcooking/categories/pork" class="hamburger-menu-overlay-link">Pork</a></li><li><a href="https://hisfantor.com/studentcooking/categories/skillet" class="hamburger-menu-overlay-link">Skillet</a></li><li><a href="https://hisfantor.com/studentcooking/categories/tuna" class="hamburger-menu-overlay-link">Tuna</a></li>
     </ul>
   </div>
 </nav>
@@ -45,16 +56,15 @@
       
       
       
-      
       <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://hisfantor.com/recipes/post/vegetable-pizza/" class="card blog-card" rel="bookmark" >
+  href="https://hisfantor.com/studentcooking/post/vegetable-pizza/" class="card blog-card" rel="bookmark" >
   
   <div class="card-img-container">
     <picture>
       
       
-      <source srcset="https://hisfantor.com/recipes/post/vegetable-pizza/3_hu40943a9613f2674d2813c257f342d034_158935_400x300_fit_q75_lanczos.jpg">
-      <img src="https://hisfantor.com/recipes/post/vegetable-pizza/3_hu40943a9613f2674d2813c257f342d034_158935_400x300_fit_q75_lanczos.jpg" class="card-img" >
+      <source srcset="https://hisfantor.com/studentcooking/post/vegetable-pizza/3_hu40943a9613f2674d2813c257f342d034_158935_400x300_fit_q75_lanczos.jpg">
+      <img src="https://hisfantor.com/studentcooking/post/vegetable-pizza/3_hu40943a9613f2674d2813c257f342d034_158935_400x300_fit_q75_lanczos.jpg" class="card-img" >
     </picture>
   </div>
   <article class="card-body">
@@ -66,14 +76,14 @@
     </div>
   </article>
 </a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://hisfantor.com/recipes/post/thuna-corn-noodles/" class="card blog-card" rel="bookmark" >
+  href="https://hisfantor.com/studentcooking/post/thuna-corn-noodles/" class="card blog-card" rel="bookmark" >
   
   <div class="card-img-container">
     <picture>
       
       
-      <source srcset="https://hisfantor.com/recipes/post/thuna-corn-noodles/3_hue22c9191e1a755cc929849c7f32620f3_141591_400x300_fit_q75_lanczos.jpg">
-      <img src="https://hisfantor.com/recipes/post/thuna-corn-noodles/3_hue22c9191e1a755cc929849c7f32620f3_141591_400x300_fit_q75_lanczos.jpg" class="card-img" >
+      <source srcset="https://hisfantor.com/studentcooking/post/thuna-corn-noodles/3_hue22c9191e1a755cc929849c7f32620f3_141591_400x300_fit_q75_lanczos.jpg">
+      <img src="https://hisfantor.com/studentcooking/post/thuna-corn-noodles/3_hue22c9191e1a755cc929849c7f32620f3_141591_400x300_fit_q75_lanczos.jpg" class="card-img" >
     </picture>
   </div>
   <article class="card-body">
@@ -85,14 +95,14 @@
     </div>
   </article>
 </a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://hisfantor.com/recipes/post/steak-noodles/" class="card blog-card" rel="bookmark" >
+  href="https://hisfantor.com/studentcooking/post/steak-noodles/" class="card blog-card" rel="bookmark" >
   
   <div class="card-img-container">
     <picture>
       
       
-      <source srcset="https://hisfantor.com/recipes/post/steak-noodles/3_hu91a082355cb0c1131c6eeafe36f3972c_93936_400x300_fit_q75_lanczos.jpg">
-      <img src="https://hisfantor.com/recipes/post/steak-noodles/3_hu91a082355cb0c1131c6eeafe36f3972c_93936_400x300_fit_q75_lanczos.jpg" class="card-img" >
+      <source srcset="https://hisfantor.com/studentcooking/post/steak-noodles/3_hu91a082355cb0c1131c6eeafe36f3972c_93936_400x300_fit_q75_lanczos.jpg">
+      <img src="https://hisfantor.com/studentcooking/post/steak-noodles/3_hu91a082355cb0c1131c6eeafe36f3972c_93936_400x300_fit_q75_lanczos.jpg" class="card-img" >
     </picture>
   </div>
   <article class="card-body">
@@ -104,14 +114,14 @@
     </div>
   </article>
 </a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://hisfantor.com/recipes/post/pancake/" class="card blog-card" rel="bookmark" >
+  href="https://hisfantor.com/studentcooking/post/pancake/" class="card blog-card" rel="bookmark" >
   
   <div class="card-img-container">
     <picture>
       
       
-      <source srcset="https://hisfantor.com/recipes/post/pancake/3_huc2b0f4c8585931e7e57ef80bc9912242_117290_400x300_fit_q75_lanczos.jpg">
-      <img src="https://hisfantor.com/recipes/post/pancake/3_huc2b0f4c8585931e7e57ef80bc9912242_117290_400x300_fit_q75_lanczos.jpg" class="card-img" >
+      <source srcset="https://hisfantor.com/studentcooking/post/pancake/3_huc2b0f4c8585931e7e57ef80bc9912242_117290_400x300_fit_q75_lanczos.jpg">
+      <img src="https://hisfantor.com/studentcooking/post/pancake/3_huc2b0f4c8585931e7e57ef80bc9912242_117290_400x300_fit_q75_lanczos.jpg" class="card-img" >
     </picture>
   </div>
   <article class="card-body">
@@ -123,14 +133,14 @@
     </div>
   </article>
 </a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://hisfantor.com/recipes/post/chicken-paprika-noodles/" class="card blog-card" rel="bookmark" >
+  href="https://hisfantor.com/studentcooking/post/chicken-paprika-noodles/" class="card blog-card" rel="bookmark" >
   
   <div class="card-img-container">
     <picture>
       
       
-      <source srcset="https://hisfantor.com/recipes/post/chicken-paprika-noodles/3_hud13c47ccf08572a535413146d23d70c7_95971_400x300_fit_q75_lanczos.jpg">
-      <img src="https://hisfantor.com/recipes/post/chicken-paprika-noodles/3_hud13c47ccf08572a535413146d23d70c7_95971_400x300_fit_q75_lanczos.jpg" class="card-img" >
+      <source srcset="https://hisfantor.com/studentcooking/post/chicken-paprika-noodles/3_hud13c47ccf08572a535413146d23d70c7_95971_400x300_fit_q75_lanczos.jpg">
+      <img src="https://hisfantor.com/studentcooking/post/chicken-paprika-noodles/3_hud13c47ccf08572a535413146d23d70c7_95971_400x300_fit_q75_lanczos.jpg" class="card-img" >
     </picture>
   </div>
   <article class="card-body">
@@ -149,7 +159,7 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
   
-  <script src="https://hisfantor.com/recipes/js/core.min.js"></script>
+  <script src="https://hisfantor.com/studentcooking/js/core.min.js"></script>
 <script>
   hljs.initHighlightingOnLoad();
 </script>

@@ -1,5 +1,5 @@
-baseurl = "https://hisfantor.com/recipes/"
-title = "Hisfantor's Food Blog"
+baseurl = "https://hisfantor.com/studentcooking/"
+title = "Studentcooking"
 author = "Hisfantor"
 canonifyurls = true
 paginate = 5
