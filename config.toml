@@ -3,7 +3,7 @@ title = "Hisfantor's Food Blog"
 author = "Hisfantor"
 canonifyurls = true
 paginate = 5
-theme = "aether"
+theme = "ather"
 publishDir = "docs"
 languageCode = "en"
 
